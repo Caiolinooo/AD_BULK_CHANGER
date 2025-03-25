@@ -1,0 +1,42 @@
+# Arquivos e pastas específicos do PowerShell
+*.pssproj
+*.psproj.user
+*.psm1.user
+*.psd1.user
+*.ps1.user
+*.ps1xml.user
+*.cdxml.user
+
+# Arquivos de log
+*.log
+
+# Arquivos temporários
+*.tmp
+*.temp
+Thumbs.db
+desktop.ini
+
+# Arquivos de cache/histórico do PowerShell
+PSReadLine/
+
+# Diretórios de compilação e objetos
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+_ReSharper*/
+*.ReSharper*
+
+# Pastas específicas do Visual Studio
+.vs/
+.vscode/
+*_i.c
+*_p.c
+
+# Arquivos do sistema Windows
+$RECYCLE.BIN/
+System Volume Information/
+
+# Arquivos de teste e execução temporária
+TestResults/
+*.Tests.xml 

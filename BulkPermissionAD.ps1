@@ -1,7 +1,8 @@
 # Gerenciador de Permissões em Massa para Active Directory
-# Autor: Claude
+# Autor: Caio Valerio Goulart Correia (Caio Correia)
 # Data: 2023
 # Versão: 1.0
+# Licença: AGPLv3 - Uso exclusivo mediante licenciamento
 
 Add-Type -AssemblyName System.Windows.Forms
 Add-Type -AssemblyName System.Drawing
