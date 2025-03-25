@@ -1,0 +1,3 @@
+@echo off
+echo Iniciando Gerenciador de Permissoes em Massa para AD...
+PowerShell -Command "Start-Process PowerShell -ArgumentList '-ExecutionPolicy Bypass -File \"%~dp0BulkPermissionAD.ps1\"' -Verb RunAs" 
